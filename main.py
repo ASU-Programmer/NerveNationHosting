@@ -5,7 +5,7 @@ from nextcord import Interaction, Embed
 from datetime import timedelta
 from keep_alive import keep_alive
 
-DISCORD_KEY = os.envrion['discordkey']
+DISCORD_KEY = os.environ['discordkey']
 
 intents = nextcord.Intents.default()
 intents.guilds = True
